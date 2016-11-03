@@ -1,5 +1,5 @@
-$(window).bind("orientationchange",function(event){
-	if(event.orientation == landscape){
-		alert("This website does not support the landscape orientation. Please change to portrait.")
+$(window).on("orientationchange", function(event){
+	if(event.orientation == "landscape"){
+		alert("Landscape is not supported by this website, please switch to portrait");
 	}
 }
