@@ -1,159 +1,101 @@
 <!DOCTYPE html>
+
 <html>
 <head>
-	<title>Homepage</title>
+	<title>My Portfolio</title>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Simion's personal portfolio website">
+	<meta name="keywords" content="simion, padurean, portfolio, derp">
 	<meta name="author" content = "Simion Padurean">
-	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	
 </head>
 <body>
-	<!-- Splashscreen -->
-	<div class="splashscreen">
-		<div class = "preloader">
-			<span class="preloader__text">Loading the Awesome</span>
-		</div>
-	</div>
-	<!-- Navigation -->
-	<div id = "top" class="navigation">
-		<div class="nagivation__wrapper wrapper--large">
-			<a class="nagivation__logo logo" href = "#0">SP</a>
-			<nav class="nagivation__container">
-				<ul class="navigation__list">
-					<li><a href="#0">Home</a></li>
-					<li><a href="#about">About</a><li>
-					<li><a href="#resume">Resume</a><li>
-					<li><a href="#contact">Contact</a></li>
-				</ul>
-			</nav>
-			<a class="nagivation__cta button" href="#0">Contact me</a>
-			<div class="nagivation__burger">
-				<span class="nagivation__burger-el navigation__burger-el--top"></span>
-				<span class="nagivation__burger-el nagivation__burger-el--middle"></span>
-				<span class="navigation__burger-el navigation__burger-el--bottom"></span>
-			</div>
-		</div>
-	</div>
-	<!-- Introduction -->
-	<header class ="header">
-		<div class="introduction">
-			<h1 class="introduction_content">
-				<span class="introduction__content-el introduction__content-el--name">The Portfolio Of</span>
-				<span class="introduction__content-el introduction__content-el--description">Simion Padurean</span>
-				<span class="introduction__content-el introduction__content-el--job">.</span>
-			</h1>
-			<svg class="introduction__arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0" y="0" viewBox="0 0 130 65" xml:space="preserve" enable-background="new 0 0 130 65"><g transform="translate(0.000000,65.000000) scale(0.100000,-0.100000)"><path d="M22.2 634c-50-35-40-47 293-349 174-157 323-285 333-285 24 0 635 552 647 585 8 23 6 30-14 46 -13 10-31 19-40 19s-57-37-107-83c-50-45-179-162-287-260l-197-179 -147 134c-319 289-433 388-446 388C50.2 650 34.2 643 22.2 634z"/></g></svg>
-		</div>
-	</header>
-	<main role="main">
-		<!-- About me -->
-		<section class="about">
-			<div class="about__wrapper wrapper--small">
-				<div class="about__content">
-					<div class="about__content-blurb blurb blurb--framed">
-					<h2 class="blurb__heading">Pour the milk<br>before the cereal.</h2>
-					<p class="blurb_copy no-margin">This is the only way to do it</p>
-					</div>
-					<p class="about__content-signature">Simion Padurean</p>
-				</div>
-				<img class="about__visual" src="/img/me.jpg" alt="Drawing of Me">
-			</div>
-		</section>
-		<!-- Programming -->
-		<section class="programming">
-			<div class="programming__wrapper wrapper--large">
-				<div class="programming__content blurb">
-					<h2 class="blurb__heading">Programming</h2>
-					<p class="blurb__copy blurb__copy--tight">I code in Python, Java, MySql, HTML, CSS, JavaScript.</p>
-				</div>
-			</div>
-			<figure class="programming__visual"></figure>
-		</section>
-		<!-- Kendo -->
-		<section class = "kendo">
-			<div class = "kendo_wrapper wrapper--small">
-				<div class="kendo__content blurb">
-					<h2 class="blurb__heading">Kendo</h2>
-					<p class="blurb__copy blurb__copy--tight">I have practiced Kendo for around 4 years and coach for the Kendo Club at UCI.</p>
-				</div>
-			</div>
-			<figure class="kendo__visual"></figure>
-		</section>
-		<!-- Work Experience -->
-		<section id="resume" class="resume">
-			<h2 class="resume__heading title">My Work Experience</h2>
-			<div class="resume__wrapper wrapper--large">
-				<ul class="resume__list">
-					<li class="resume__list-el resume__list-el--is-active">
-						<div class="resume__content">
-							<div class="resume__content-blurb blurb blurb--framed">
-								<h3 class="blurb__heading">SICA Construction</h3>
-								<p class="blurb__copy">I work as a business intern; writing contracts and communicating with customers about their projects. I assisting in project analysis and price estimation.</p>
-							</div>
-						</div>
-						<div class="resume_visual">
-							<img src="img/general-contracting-visual.jpg" alt="Contracting">
-						</div>
-					</li>
-					<li class="resume__list-el">
-						<div class="resume__content">
-							<div class="resume__content-blurb blurb blurb--framed">
-								<h3 class="blurb__heading">Netaphor Software INC</h3>
-								<p class="blurb__copy">I serve as a QA intern for Netaphor Software, performing tests for their premier print auditing software, SiteAudit.</p>
-							</div>
-						</div>
-						<div class="resume__visual">
-							<img src="img/netaphor-visual.jpg" alt="Netaphor">
-						</div>
-					</li>
-					<li class="resume__list-el">
-						<div class="resume__content">
-							<div class="resume__content-blurb blurb blurb--framed">
-								<h3 class="blurb__heading">UC Irvine Star Group</h3>
-								<p class="blurb__copy">I worked as a research assistant on the project "Aiding Novice Cooks as They are Cooking". A software that uses graphs to teach novice cooks how to cook.</p>
-							</div>
-						</div>
-						<div class="work__visual">
-							<img src="/img/cooking-graph-visual.jpg" alt="Novice Cooks">
-						</div>
-					</li>
-				</ul>
-				<ul class="resume__navigation">
-					<li class="resume__navigation-el resume__navigation-el--is-active"></li>
-					<li class="resume__nagivation-el"></li>
-					<li class="resume__nagivation-el"></li>
-				</ul>
-			</div>
-		</section>
-		<!-- contact info -->
-		<section id="contact" class="contact">
-			<!-- <h2 class="contact__heading title">Shoot me a message!</h2> -->
-			<div class="contact__wrapper wrapper--large">
-				<div class="contact__visual">
-					<img src="/img/contactme-visual.png" alt="Contact stock image">
-				</div>
-				<!-- Simple form setup: formspree.io -->
-				<form class="contact__form" method="POST" action="http://formspree.io//simpakl@yahoo.com">
-					<input class="contact__form-el contact__form-el--name" type="text" placeholder="Your Name" spellcheck="false">
-					<input class="contact__form-el contact__form-el--email" type="email" placeholder="Your Email" spellcheck="false">
-					<textarea class="contact__form-el contact__form-el--message" placeholder="Your Message"></textarea>
-					<input class="contact__form-el contact__form-el--submit" type="submit" value="Send">
-				</form>
-			</div>
-		</section>
-		<!-- END SECTION: Contact -->
-		<footer class="footer">
-			<div class="footer__wrapper wrapper--large">
-				<a class="footer_arrow" href="#top">
-					<svg class="footer__arrow-el" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0" y="0" viewBox="0 0 130 65" xml:space="preserve" enable-background="new 0 0 130 65"><g transform="translate(0.000000,65.000000) scale(0.100000,-0.100000)"><path d="M315.4 365c-336-305-345-315-290-351 18-12 32-14 45-8 10 5 145 123 300 262l281 253 196-178c108-98 237-215 287-260 50-46 98-83 107-83s27 9 40 19c20 16 22 23 14 46 -12 33-623 585-647 585C638.4 650 489.4 522 315.4 365z"/></g></svg>
-				</a>
-			</div>
-		</footer>
+	<div id="wrapper">
 		
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-		<script>window.jQuery || document.write('<script src="/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
-		<script src="/js/functions-min.js"></script>
+		<nav id="navigation">
+			<a href="#aboutme" class="Home"><span>Home</span></a>
+			<a href="#resume" class="Resume"><span>About</span></a>
+			<a href="#contact" class="Contact"><span>Contact</span></a>
+		</nav>
+		
+	<div id="main">
+	
+		<article id="aboutme" class="panel">
+			<header>
+				<h1>Simion Padurean</h1>
+				<p>Cereal Specialist</p>
+			</header>
+			<a href="#resume" class="jumplink pic">
+				
+				<center><img src="img/me.png" alt="Simion Padurean" height="400" width="400"/></center>
+			</a>
+		</article>
+		
+		<article id="resume" class="panel">
+			<header>
+				<h2>About Me</h2>
+			</header>
+			<p>I am a 5th year student at the University of California, Irvine currently double majoring in
+			   Business Economics and Computer Science. My experience stretches across a variety of fields
+			   including programming, communication, team management and coaching. In my spare time I enjoy
+			   practicing Kendo. If you would like to request a full resume or to get in touch with me for 
+			   any reason please use the Contact Me form.
+			</p>
+			<section>
+				<div class="row">
+					<div class = "4u 12u$(mobile)">
+						<a class="image fit"><img src="img/general-contracting-visual.jpg" alt="contracting" height="300" width="400"</a>
+					</div>
+					<div class = "4u 12u$(mobile)">
+						<a class="image fit"><img src="img/netaphor-visual.jpg" alt="netaphor" height="300" width="400"</a>
+					</div>
+					<div class = "4u 12u$(mobile)">
+						<a class="image fit"><img src="img/programming-visual.jpg" alt="programming" height="300" width="400"</a>
+					</div>
+					<div class = "4u 12u$(mobile)">
+						<a  class="image fit"><img src="img/cooking-visual.jpg" alt="cooking" height="300" width="400"</a>
+					</div>
+					<div class = "4u 12u$(mobile)">
+						<a class="image fit"><img src="img/kendo-visual.jpg" alt="kendo" height="300" width="400"</a>
+					</div>
+				</div>
+			</section>
+		</article>
+		
+		<article id="contact" class="panel">
+			<header>
+				<h2>Contact Me</h2>
+			</header>
+			<form id="contactform" method="post" action="http://formspree.io//simpakl@yahoo.com">
+				<div>
+					<div class="row">
+						<div class="6u 12u$(mobile)">
+							<input type="text" name="name" placeholder="Your Name" />
+						</div>
+						<div class="6u 12u$(mobile)">
+							<input type="text" name="email" placeholder="Your Email" />
+						</div>
+						<div class="6u 12u$(mobile)">
+							<input type="text" name="subject" placeholder="Subject" />
+						</div>
+						<div class="12u$">
+							<textarea name="message" placeholder="Your Message" rows="8"></textarea>
+						</div>
+						<div class="12u$">
+							<input type="submit" value="Send"/>
+						</div>
+					</div>
+				</div>
+			</form>
+		</article>
+		
+	</div>
 	
 </body>
 </html>
+			
+					
+			   
+				
