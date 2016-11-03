@@ -39,7 +39,7 @@ header p{
 	color: #fff;
 	text-shadow:#2c2c2c 3px 3px 5px; 
 }
-@media only screen and (max-device-width: 480px){
+/* @media only screen and (max-device-width: 480px){
 		div#wrapper {
 			width:400px;
 		}
@@ -51,6 +51,6 @@ header p{
 		div#header h1{
 			font-size:140%;
 		}
-}
+} */
 
 
