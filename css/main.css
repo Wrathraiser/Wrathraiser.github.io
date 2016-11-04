@@ -1,5 +1,6 @@
 body{
 	background-color: MediumSlateBlue;
+	padding-top: 100px;
 }
 
 #navigation{
@@ -45,16 +46,24 @@ header p{
 	color: #fff;
 	text-shadow:#2c2c2c 3px 3px 5px; 
 }
+
+#aboutme{
+	padding-top:50px;
+	padding-bottom:50px;
+}
 #resume {
+	padding-top:50px;
 	color: #fff;
 	font-family: Palatino Linotype, Book Antiqua, Palatino, serif
 	
 }
 
 #contactform{
+	margin:0 auto;
 	border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+	width:700px;
 }
 
 input[type=text]{
@@ -83,14 +92,12 @@ input[type=submit]:hover {
     background-color:  #696969;
 }
 
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
 }
-@media screen
-	and (device-width: 360px)
-	and (device-height: 640px)
-	and(-webkit-min-device-pixel-ratio : 4)
-	and(-webkit-device-pixel-ratio : 4)
-	and(orientation: portrait){
-		
-	}
 
 
