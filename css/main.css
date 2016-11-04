@@ -115,8 +115,20 @@ input[type=submit]:hover {
 	}
 }
 
-@media only screen and (max-width: 1024px){
-	
-}
+/* @media only screen and (max-width: 1024px){
+	#resume{
+		font-size: 15px;
+	}
+	textarea{
+		width: 600px;
+	}
+	#contactform{
+		width:600px;
+	}
+	body{
+		width: 80%;
+		height: 80%;
+	}
+} */
 
 
