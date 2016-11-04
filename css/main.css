@@ -1,6 +1,8 @@
 body{
 	background-color: MediumSlateBlue;
 	padding-top: 100px;
+	/*width: 80%;
+	height: 80%;*/
 }
 
 #navigation{
@@ -93,11 +95,9 @@ input[type=submit]:hover {
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     /* For mobile phones: */
 	#navigation{
-		float:left;
-		width: 25%;
 		position: fixed;
 	}
     #resume{
@@ -106,6 +106,17 @@ input[type=submit]:hover {
 	textarea{
 		width: 500px;
 	}
+	#contactform{
+		width: 500px;
+	}
+	body{
+		width: 70%;
+		height: 70%;
+	}
+}
+
+@media only screen and (max-width: 1024px){
+	
 }
 
 
