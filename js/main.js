@@ -20,7 +20,7 @@ $(document).ready(function(){
   });
 });
 
-
+//Nav bar opacity example from stackoverflow
 $(window).scroll(function() {
     if ($(window).scrollTop() > 75) {
         $('#navigation').css("opacity", 0.6);
