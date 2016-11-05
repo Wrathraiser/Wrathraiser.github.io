@@ -8,7 +8,6 @@ body{
 	margin:0;
 	padding: 10px 20px;
 	position: fixed;
-	overflow: hidden;
 	background-color: #333;
 	top:0;
 	left:0;
@@ -131,13 +130,12 @@ input[type=submit]:hover {
 	}
 	body{
 		width: 100%;
-		overflow:hidden;
 		background-color: SlateBlue;
 	}
 
 @media only screen and (min-width: 1025px){
 	#navigation{
-		font-size: 20px;
+		font-size: 30px;
 	}
 	
 	#resume{
