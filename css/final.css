@@ -1,0 +1,91 @@
+/*  SECTIONS  */
+body{
+	background-color: MediumSlateBlue;
+	padding-top: 50px;
+}
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	color: #fff;
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+/*  GRID OF TWO  */
+.span_2_of_2 {
+	width: 100%;
+}
+.span_1_of_2 {
+	width: 49.2%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.col { 
+		margin: 1% 0 1% 0%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.span_2_of_2, .span_1_of_2 { width: 100%; }
+}
+
+img { 
+   border:1px solid #021a40;
+}
+header h1{
+	font-size: 30px;
+	text-align:center;
+	color: #fff;
+	text-shadow:#2c2c2c 3px 3px 5px; 
+}
+header p{
+	font-size: 20px;
+	color: #fff;
+	text-shadow:#2c2c2c 3px 3px 5px; 
+}
+.interviews{
+	padding-top: 120px;
+	color: #fff;
+}
+.analysis{
+	padding-top: 150px;
+	color: #fff;
+}
+.value{
+	padding-top: 150px;
+	color: #fff;
+}
+.prioritization{
+	padding-top: 150px;
+	color: #fff;
+}
+.stories{
+	padding-top: 200px;
+	color: #fff;
+}
+.cognitive{
+	padding-top: 120px;
+	color: #fff;
+}
+.user{
+	padding-top: 150px;
+	color: #fff;
+}
+.incorporation{
+	padding-top: 15px;
+}
+}
